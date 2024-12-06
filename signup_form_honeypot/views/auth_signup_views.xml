@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="signup_honeypot_inherit" inherit_id="auth_signup.signup">
+        <xpath expr="//form" position="inside">
+            <input t-att-name="honeypot_name"
+                type="text"
+                style="border:#ffffff;"
+                autocomplete="off"
+                tabindex="-1" />
+        </xpath>
+    </template>
+</odoo>
