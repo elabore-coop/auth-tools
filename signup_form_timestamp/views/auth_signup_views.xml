@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="signup_honeypot_timestamp" inherit_id="auth_signup.signup">
+        <xpath expr="//form" position="inside">
+            <input type="hidden" t-att-name="timestamp_name" t-att-value="signup_timestamp"/>
+        </xpath>
+    </template>
+</odoo>
