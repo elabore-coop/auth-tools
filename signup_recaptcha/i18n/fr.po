@@ -1,0 +1,94 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* signup_recaptcha
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-02 10:21+0000\n"
+"PO-Revision-Date: 2025-01-02 10:21+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: signup_recaptcha
+#: model_terms:ir.ui.view,arch_db:signup_recaptcha.res_config_settings_view_form
+msgid "<i class=\"fa fa-arrow-right\"/>\n"
+"                                    How to get my reCaptcha Key"
+msgstr ""
+
+#. module: signup_recaptcha
+#: model:ir.model,name:signup_recaptcha.model_res_config_settings
+msgid "Config Settings"
+msgstr "Paramètres de configuration"
+
+#. module: signup_recaptcha
+#: model:ir.model,name:signup_recaptcha.model_portal_mixin
+msgid "Portal Mixin"
+msgstr ""
+
+#. module: signup_recaptcha
+#: model_terms:ir.ui.view,arch_db:signup_recaptcha.res_config_settings_view_form
+msgid "Portal reCaptcha"
+msgstr ""
+
+#. module: signup_recaptcha
+#: model:ir.model.fields,field_description:signup_recaptcha.field_res_config_settings__recaptcha_key_secret
+msgid "Recaptcha Key Secret"
+msgstr "Clé secrete Recaptcha"
+
+#. module: signup_recaptcha
+#: model:ir.model.fields,field_description:signup_recaptcha.field_res_config_settings__recaptcha_key_site
+msgid "Recaptcha Key Site"
+msgstr "Clé du site Recaptcha"
+
+#. module: signup_recaptcha
+#: code:addons/signup_recaptcha/models/portal_mixin.py:20
+#, python-format
+msgid "The response parameter is invalid or malformed."
+msgstr "Le paramètre de réponse est invalide ou mal formatté"
+
+#. module: signup_recaptcha
+#: code:addons/signup_recaptcha/models/portal_mixin.py:19
+#, python-format
+msgid "The response parameter is missing."
+msgstr "Le paramètre de réponse est manquant"
+
+#. module: signup_recaptcha
+#: code:addons/signup_recaptcha/models/portal_mixin.py:18
+#, python-format
+msgid "The secret parameter is invalid or malformed."
+msgstr "La clé secrete est invalide ou mal formattée "
+
+#. module: signup_recaptcha
+#: code:addons/signup_recaptcha/models/portal_mixin.py:17
+#, python-format
+msgid "The secret parameter is missing."
+msgstr "la clé secrete est manquante"
+
+#. module: signup_recaptcha
+#: code:addons/signup_recaptcha/models/portal_mixin.py:24
+#, python-format
+msgid "There was a problem with the captcha entry."
+msgstr "Il y a eu un problème avec le captcha"
+
+#. module: signup_recaptcha
+#: model_terms:ir.ui.view,arch_db:signup_recaptcha.res_config_settings_view_form
+msgid "XXXXX"
+msgstr ""
+
+#. module: signup_recaptcha
+#: code:addons/signup_recaptcha/controllers/main.py:32
+#, python-format
+msgid "the captcha has not been validated"
+msgstr "le captcha n’a pas été validé"
+
+#. module: signup_recaptcha
+#: code:addons/signup_recaptcha/controllers/main.py:39
+#, python-format
+msgid "the captcha is not valid"
+msgstr "Le captcha n’est pas valide"
