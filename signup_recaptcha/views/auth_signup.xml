@@ -2,7 +2,7 @@
 <odoo>
     <data>
         <template id="auth_signup_recaptcha" inherit_id="auth_signup.fields" name="Recaptcha for signup">
-        <xpath expr="//div[hasclass('form-group','field-confirm_password')]" position="after">
+        <xpath expr="//div[hasclass('field-confirm_password')]" position="after">
             <script src="https://www.google.com/recaptcha/api.js" />
             <div
             class="g-recaptcha text-xs-center"

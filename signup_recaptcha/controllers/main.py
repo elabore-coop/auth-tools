@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import logging
 
 from odoo.addons.auth_signup.controllers.main import AuthSignupHome
