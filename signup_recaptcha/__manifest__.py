@@ -11,7 +11,7 @@
     "category": "Tools",
     "summary": "google recaptcha V2 for signup form with server side validation",
     # any module necessary for this one to work correctly
-    "depends": ["base", "portal"],
+    "depends": ["base", "portal", "auth_remove_space_in_signup_and_login"],
     "data": [
         "views/auth_signup.xml",
         "views/res_config.xml",

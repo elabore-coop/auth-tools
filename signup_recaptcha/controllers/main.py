@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
 import logging
 
-from odoo.addons.auth_signup.controllers.main import AuthSignupHome
+
+from odoo.addons.auth_remove_space_in_signup_and_login.controllers.auth_signup import (
+    AuthSignupHome as CustomAuthSignupHome,
+)
 from odoo.addons.auth_signup.models.res_users import SignupError
 from odoo.http import request
 from odoo import _
@@ -10,7 +13,7 @@ from odoo import _
 _logger = logging.getLogger(__name__)
 
 
-class AuthSignupHome(AuthSignupHome):
+class AuthSignupHome(CustomAuthSignupHome):
     def get_auth_signup_qcontext(self):
         """Add recaptcha to the context"""
         qcontext = super(AuthSignupHome, self).get_auth_signup_qcontext()
